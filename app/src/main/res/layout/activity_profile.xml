@@ -177,27 +177,27 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="20dp"
-                android:layout_marginStart="16dp"
+                android:layout_marginTop="25dp"
+                android:layout_marginStart="25dp"
                 android:layout_marginEnd="16dp"
-                android:text="Riwayat Pengaduan"
-                android:textSize="18sp"
+                android:text="RIWAYAT PENGADUAN"
+                android:textSize="20sp"
                 android:textStyle="bold"
                 android:gravity="start" />
 
             <androidx.cardview.widget.CardView
-                android:id="@+id/card_pengaduan"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
-                android:layout_margin="16dp"
+                android:layout_marginVertical="12dp"
+                android:layout_marginHorizontal="25dp"
                 app:cardCornerRadius="12dp"
-                app:cardElevation="4dp">
+                app:cardElevation="6dp"
+                app:cardBackgroundColor="@android:color/white">
 
                 <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:orientation="vertical"
-                    android:padding="12dp">
+                    android:orientation="vertical">
 
                     <ImageView
                         android:layout_width="match_parent"
@@ -211,6 +211,7 @@
                         android:orientation="horizontal"
                         android:layout_marginTop="10dp"
                         android:gravity="center_vertical"
+                        android:padding="10dp"
                         android:justifyContent="space_between">
 
                         <LinearLayout
@@ -224,15 +225,17 @@
                                 android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
                                 android:text="TEMBOK KEROPOS"
-                                android:textSize="20sp"
+                                android:textSize="15sp"
                                 android:textStyle="bold" />
 
                             <TextView
                                 android:id="@+id/place"
-                                android:layout_width="wrap_content"
                                 android:layout_height="wrap_content"
-                                android:text="Belakang gedung A"
-                                android:textStyle="bold" />
+                                android:text="Tembok di belakang gedung A terlihat kurang terawat dan beberapa di antaranya terlihat keropos. Hal ini cukup menganggu karena rontokan dinding yang keropos berserakan di jalan belakang gedung A, sehingga membuatnya tidak dapat dilewati."
+                                android:maxLines="1"
+                                android:ellipsize="end"
+                                android:layout_width="150dp" />
+
                         </LinearLayout>
 
                         <LinearLayout
@@ -277,7 +280,6 @@
                             </LinearLayout>
                         </LinearLayout>
                     </LinearLayout>
-
                 </LinearLayout>
             </androidx.cardview.widget.CardView>
         </LinearLayout>
