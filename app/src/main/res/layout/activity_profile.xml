@@ -96,10 +96,10 @@
 
             <LinearLayout
                 android:id="@+id/infoNimProdi"
-                android:layout_width="wrap_content"
+                android:layout_width="344dp"
                 android:layout_height="wrap_content"
-                android:layout_marginTop="16dp"
                 android:layout_gravity="center"
+                android:layout_marginTop="16dp"
                 android:background="@drawable/profile_bg_nim"
                 android:clipChildren="false"
                 android:clipToPadding="false"
@@ -124,7 +124,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="235150701111018"
-                        android:textColor="@android:color/white" />
+                        android:textColor="@android:color/white"
+                        android:textSize="12dp" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -146,7 +147,8 @@
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="TEKNOLOGI INFORMASI"
-                        android:textColor="@android:color/white" />
+                        android:textColor="@android:color/white"
+                        android:textSize="12dp" />
                 </LinearLayout>
             </LinearLayout>
 
