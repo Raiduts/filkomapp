@@ -181,7 +181,6 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintEnd_toEndOf="parent">
 
-        <!-- Background Tombol -->
         <ImageButton
             android:id="@+id/btnKirim"
             android:layout_width="match_parent"
@@ -193,7 +192,6 @@
             android:clickable="true"
             android:focusable="true" />
 
-        <!-- Tulisan di Tengah -->
         <TextView
             android:id="@+id/btnKirimText"
             android:layout_width="match_parent"
