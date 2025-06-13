@@ -31,7 +31,6 @@
                 android:layout_height="wrap_content"
                 android:layout_marginTop="10dp"
                 android:gravity="center_vertical"
-                android:justifyContent="space_between"
                 android:orientation="horizontal"
                 android:padding="10dp">
 

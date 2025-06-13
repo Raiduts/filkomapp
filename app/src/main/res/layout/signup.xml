@@ -136,7 +136,7 @@
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="@+id/passfield"
         app:layout_constraintTop_toTopOf="@+id/passfield"
-        app:srcCompat="@drawable/eyeIcon" />
+        app:srcCompat="@drawable/eye_icon" />
 
     <ImageView
         android:id="@+id/imageView7"
@@ -184,7 +184,7 @@
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="@+id/passfield2"
         app:layout_constraintTop_toTopOf="@+id/passfield2"
-        app:srcCompat="@drawable/eyeIcon" />
+        app:srcCompat="@drawable/eye_icon" />
 
     <ImageButton
         android:id="@+id/button"

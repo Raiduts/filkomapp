@@ -11,28 +11,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Filkomapp"
-        tools:targetApi="31">
-        <activity
-            android:name=".Dashboard"
-            android:exported="false" />
-        <activity
-            android:name=".Notifikasi"
-            android:exported="false" />
-        <activity
-            android:name=".Search"
-            android:exported="false" />
-        <activity
-            android:name=".Laporan"
-            android:exported="false" />
-        <activity
-            android:name=".Profile"
-            android:exported="false" />
-        <activity
-            android:name=".Upload"
-            android:exported="false" />
-        <activity
-            android:name=".Signin"
-            android:exported="false" />
+        tools:targetApi="34">
         <activity
             android:name=".MainActivity"
             android:exported="true">

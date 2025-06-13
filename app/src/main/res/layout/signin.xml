@@ -94,7 +94,7 @@
         app:layout_constraintHorizontal_bias="0.95"
         app:layout_constraintStart_toStartOf="@+id/passfield"
         app:layout_constraintTop_toTopOf="@+id/passfield"
-        app:srcCompat="@drawable/eyeIcon" />
+        app:srcCompat="@drawable/eye_icon" />
 
     <TextView
         android:id="@+id/forgotPass"
