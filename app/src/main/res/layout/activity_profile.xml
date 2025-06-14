@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
@@ -94,7 +95,7 @@
                 android:layout_marginTop="4dp" />
 
             <LinearLayout
-                android:id="@+id/infoNimProdi"
+                android:id="@+id/prodi"
                 android:layout_width="344dp"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center"
@@ -120,11 +121,13 @@
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@+id/nim"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="235150701111018"
                         android:textColor="@android:color/white"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"
+                        tools:ignore="TextSizeCheck" />
                 </LinearLayout>
 
                 <LinearLayout
@@ -143,11 +146,13 @@
                         android:textStyle="bold" />
 
                     <TextView
+                        android:id="@id/prodi"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:text="TEKNOLOGI INFORMASI"
                         android:textColor="@android:color/white"
-                        android:textSize="12dp" />
+                        android:textSize="12dp"
+                        tools:ignore="TextSizeCheck" />
                 </LinearLayout>
             </LinearLayout>
 

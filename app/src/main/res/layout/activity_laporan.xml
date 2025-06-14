@@ -96,8 +96,7 @@
                 <LinearLayout
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
-                    android:orientation="horizontal"
-                    android:gravity="center_vertical">
+                    android:orientation="horizontal">
 
                     <TextView
                         android:layout_width="wrap_content"
@@ -150,6 +149,117 @@
                 android:textSize="16sp"
                 android:justificationMode="inter_word"
                 android:paddingTop="16dp" />
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="16dp">
+                <ImageButton
+                    android:id="@+id/button2"
+                    android:layout_width="83dp"
+                    android:layout_height="24dp"
+                    android:background="@drawable/card_processing"
+                    />
+                <TextView
+                    android:id="@+id/textView5"
+                    android:layout_width="83dp"
+                    android:layout_height="24dp"
+                    android:text="Status"
+                    android:textColor="@color/black"
+                    android:fontFamily="@font/inter"
+                    android:gravity="center"/>
+            </FrameLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/news_status"
+                android:orientation="vertical"
+                android:gravity="center_vertical"
+                android:layout_marginTop="8dp">
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+
+                    <ImageButton
+                        android:id="@+id/statusButton1"
+                        android:layout_width="153dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/news_status"
+                        />
+                    <TextView
+                        android:id="@+id/statusButton1text"
+                        android:layout_width="153dp"
+                        android:layout_height="30dp"
+                        android:text="New"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/inter"
+                        android:paddingLeft="8dp"
+                        android:gravity="center_vertical"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                    <ImageButton
+                        android:id="@+id/statusButton2"
+                        android:layout_width="153dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/news_status"
+                        />
+                    <TextView
+                        android:id="@+id/statusButton2text"
+                        android:layout_width="153dp"
+                        android:layout_height="30dp"
+                        android:text="Processing"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/inter"
+                        android:paddingLeft="8dp"
+                        android:gravity="center_vertical"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                    <ImageButton
+                        android:id="@+id/statusButton3"
+                        android:layout_width="153dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/news_status"
+                        />
+                    <TextView
+                        android:id="@+id/statusButton3text"
+                        android:layout_width="153dp"
+                        android:layout_height="30dp"
+                        android:text="Fixed"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/inter"
+                        android:paddingLeft="8dp"
+                        android:gravity="center_vertical"/>
+                </FrameLayout>
+
+                <FrameLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content" >
+                    <ImageButton
+                        android:id="@+id/statusButton4"
+                        android:layout_width="153dp"
+                        android:layout_height="30dp"
+                        android:background="@drawable/news_status"
+                        />
+                    <TextView
+                        android:id="@+id/statusButton4text"
+                        android:layout_width="153dp"
+                        android:layout_height="30dp"
+                        android:text="Unfixable"
+                        android:textColor="@color/black"
+                        android:fontFamily="@font/inter"
+                        android:paddingLeft="8dp"
+                        android:gravity="center_vertical"/>
+                </FrameLayout>
+            </LinearLayout>
+
         </LinearLayout>
     </ScrollView>
 
